@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "64b67b837f535b2c4d0e0d7b"
+  },
+  "name": "Dewa 19",
+  "dateOfBirth": "2000-02-19",
+  "genre": "Rock"
+},
+{
+  "_id": {
+    "$oid": "64ba76d465b0d6e0eb81819d"
+  },
+  "name": "Artist 2",
+  "dateOfBirth": "1999-01-11",
+  "genre": "Rock"
+},
+{
+  "_id": {
+    "$oid": "64ba76d465b0d6e0eb81819e"
+  },
+  "name": "Artist 3",
+  "dateOfBirth": "1999-02-11",
+  "genre": "Rock"
+},
+{
+  "_id": {
+    "$oid": "64ba76d465b0d6e0eb81819f"
+  },
+  "name": "Artist 4",
+  "dateOfBirth": "1999-03-11",
+  "genre": "Rock"
+},
+{
+  "_id": {
+    "$oid": "64ba76d465b0d6e0eb8181a0"
+  },
+  "name": "Artist 5",
+  "dateOfBirth": "1999-04-11",
+  "genre": "Rock"
+},
+{
+  "_id": {
+    "$oid": "64ba76d465b0d6e0eb8181a1"
+  },
+  "name": "Artist 6",
+  "dateOfBirth": "1999-05-11",
+  "genre": "Rock"
+},
+{
+  "_id": {
+    "$oid": "64ba76d465b0d6e0eb8181a2"
+  },
+  "name": "Artist 7",
+  "dateOfBirth": "1999-06-11",
+  "genre": "Rock"
+},
+{
+  "_id": {
+    "$oid": "64ba76d465b0d6e0eb8181a3"
+  },
+  "name": "Artist 8",
+  "dateOfBirth": "1999-07-11",
+  "genre": "Rock"
+},
+{
+  "_id": {
+    "$oid": "64ba76d465b0d6e0eb8181a4"
+  },
+  "name": "Artist 9",
+  "dateOfBirth": "1999-08-11",
+  "genre": "Rock"
+},
+{
+  "_id": {
+    "$oid": "64ba76d465b0d6e0eb8181a5"
+  },
+  "name": "Artist 10",
+  "dateOfBirth": "1999-09-11",
+  "genre": "Rock"
+}]
