@@ -1,6 +1,7 @@
 # Database Structure
 - Database Name: gigihPlay
 - Collection Name: videoProduct
+  
 | Field Name    | Type                     |
 |---------------|--------------------------|
 | _id           | String                   | 
@@ -10,6 +11,7 @@
 | comments      | Array of Object Comments |
 
 - Object Product
+
 | Field Name    | Type    |
 |---------------|---------|
 | _id           | String  | 
@@ -19,6 +21,7 @@
 | price         | Number  |
 
 - Object Comment
+
 | Field Name    | Type   |
 |---------------|--------|
 | _id           | String |
@@ -29,6 +32,7 @@
 
 # API Structure
 **Video Thumbnail**
+
   **GET /api/gigihplay/video**
   ---
   * **Success Response:**
@@ -92,6 +96,7 @@
     * **Content:** `{ message: <error_message> }`
 
 **Product**
+
   **GET /api/gigihplay/product/:videoID**
   ---
   * **URL Params**
@@ -164,6 +169,7 @@
     * **Content:** `{ message: <error_message> }`
 
 **Comment**
+
 **GET /api/gigihplay/comment/:videoID**
   ---
   * **URL Params**
