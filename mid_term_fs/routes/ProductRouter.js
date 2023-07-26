@@ -44,7 +44,7 @@ router.post('/', async (req, res) => {
          {new: true}
       );
       const result = productToSave
-      res.status(200).json(result);
+      res.status(201).json(result);
    } catch (error) {
       res.status(400).json({ message: error.message });
    }
@@ -55,7 +55,7 @@ router.patch('/:videoID/:productID', async(req, res) => {
    const { linkProduct: reqLinkProduct, title: reqTitle, price: reqPrice } = req.body;
    try {
       const product = {
-         productID: `prod-${uuid()}`,
+         productID: reqProductID,
          linkProduct: reqLinkProduct,
          title: reqTitle,
          price: reqPrice,
